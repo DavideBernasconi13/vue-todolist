@@ -16,6 +16,23 @@ body {
 }
 
 /* -------------------------------------------------------------------------------- */
+/* ! utilities */
+/* -------------------------------------------------------------------------------- */
+.pointer {
+    cursor: pointer;
+}
+
+.underline {
+    text-decoration: line-through;
+    color: limegreen;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* -------------------------------------------------------------------------------- */
 /* ! Header */
 /* -------------------------------------------------------------------------------- */
 header {
@@ -43,9 +60,4 @@ main {
 li {
     padding: 10px 0px;
     border-bottom: 1px solid #444;
-}
-
-.underline {
-    text-decoration: line-through;
-    color: limegreen;
 }

@@ -18,8 +18,11 @@ createApp({
                 item.done = !item.done
             }
         },
-        test() {
-            console.log("crash");
+        removeItem(id) {
+            const i = this.todolist.findIndex((el) => el.id === id);
+            console.log(i);
+            if (i !== -1)
+                this.todolist.splice(i, 1)
         }
 
     },
