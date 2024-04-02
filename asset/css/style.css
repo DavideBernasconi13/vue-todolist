@@ -10,3 +10,42 @@
 ul {
     list-style: none;
 }
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* -------------------------------------------------------------------------------- */
+/* ! Header */
+/* -------------------------------------------------------------------------------- */
+header {
+    background-color: #ccc;
+    padding: 30px 10%;
+}
+
+#logo {
+    width: 250px;
+    height: auto;
+}
+
+/* -------------------------------------------------------------------------------- */
+/* ! Main */
+/* -------------------------------------------------------------------------------- */
+main {
+    padding-top: 5%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+li {
+    padding: 10px 0px;
+    border-bottom: 1px solid #444;
+}
+
+.underline {
+    text-decoration: line-through;
+    color: limegreen;
+}
