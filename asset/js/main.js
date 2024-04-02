@@ -5,7 +5,7 @@ const { createApp } = Vue;
 createApp({
     data() {
         return {
-            todolist
+            todolist: todolist
         }
     },
     methods: {
@@ -14,4 +14,4 @@ createApp({
     mounted() {
         console.log(todolist)
     }
-}).mount('#app'); 
+}).mount('#app');
