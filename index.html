@@ -35,8 +35,16 @@
                     </li>
                 </ul>
             </div>
+            <div class="addElement">
+                <input type="text" v-model="itemText" placeholder="Aggiungi elemento" @keyup.enter="addItem">
+                <button @click="addItem">Aggiungi alla lista</button>
+            </div>
+
+
         </main>
-        <footer>ccccc</footer>
+        <footer>
+            <div class="center">Made &copy 2024</div>
+        </footer>
     </div>
 </body>
 
