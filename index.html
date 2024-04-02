@@ -31,7 +31,7 @@
                     <li v-for="(item, index) in todolist" :key="item.id" @click="underline(item.id)"
                         class="d-flex pointer">
                         <span :class="{'underline' : item.done}">{{item.text}}</span>
-                        <i class="fa-regular fa-trash-can pointer" @click="removeItem(item.id)"></i>
+                        <i class="fa-solid fa-circle-xmark pointer" @click="removeItem(item.id)"></i>
                     </li>
                 </ul>
             </div>
